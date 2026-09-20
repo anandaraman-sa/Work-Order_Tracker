@@ -152,7 +152,7 @@ POST /work-orders
 {
   "title": "Fix network printer",
   "description": "Printer is not connecting to the office network",
-  "assigned_to": "John"
+  "assigned_to": "Anand"
 }
 ```
 
@@ -165,7 +165,7 @@ POST /work-orders
   "id": "7b8f1c7e-5c6c-4a0c-9a12-8e9d8a123456",
   "title": "Fix network printer",
   "description": "Printer is not connecting to the office network",
-  "assigned_to": "John",
+  "assigned_to": "Anand",
   "status": "open"
 }
 ```
@@ -196,7 +196,7 @@ GET /work-orders
     "id": "7b8f1c7e-5c6c-4a0c-9a12-8e9d8a123456",
     "title": "Fix network printer",
     "description": "Printer is not connecting to the office network",
-    "assigned_to": "John",
+    "assigned_to": "Anand",
     "status": "open"
   }
 ]
@@ -233,7 +233,7 @@ GET /work-orders/7b8f1c7e-5c6c-4a0c-9a12-8e9d8a123456
   "id": "7b8f1c7e-5c6c-4a0c-9a12-8e9d8a123456",
   "title": "Fix network printer",
   "description": "Printer is not connecting to the office network",
-  "assigned_to": "John",
+  "assigned_to": "Anand",
   "status": "open"
 }
 ```
@@ -295,7 +295,7 @@ cancelled
   "id": "7b8f1c7e-5c6c-4a0c-9a12-8e9d8a123456",
   "title": "Fix network printer",
   "description": "Printer is not connecting to the office network",
-  "assigned_to": "John",
+  "assigned_to": "Anand",
   "status": "in_progress"
 }
 ```
